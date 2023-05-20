@@ -7,6 +7,7 @@ import Layout, { GradientBackground } from '../components/Layout';
 import ArrowIcon from '../components/ArrowIcon';
 import { getGlobalData } from '../utils/global-data';
 import SEO from '../components/SEO';
+import { FaInstagram } from 'react-icons/fa';
 
 export default function Index({ posts, globalData }) {
   return (
@@ -46,6 +47,15 @@ export default function Index({ posts, globalData }) {
           ))}
         </ul>
       </main>
+      <Link href="https://www.instagram.com/ansh_._.06">
+
+        <a className="instagram-icon">
+
+          <FaInstagram />
+
+        </a>
+
+      </Link>
       <Footer copyrightText={globalData.footerText} />
       <GradientBackground
         variant="large"
