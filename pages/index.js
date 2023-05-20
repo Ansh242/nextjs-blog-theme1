@@ -7,7 +7,7 @@ import Layout, { GradientBackground } from '../components/Layout';
 import ArrowIcon from '../components/ArrowIcon';
 import { getGlobalData } from '../utils/global-data';
 import SEO from '../components/SEO';
-import { FaInstagram } from 'react-icons/fa';
+
 
 export default function Index({ posts, globalData }) {
   return (
