@@ -47,15 +47,7 @@ export default function Index({ posts, globalData }) {
           ))}
         </ul>
       </main>
-      <Link href="https://www.instagram.com/ansh_._.06">
-
-        <a className="instagram-icon">
-
-          <FaInstagram />
-
-        </a>
-
-      </Link>
+      
       <Footer copyrightText={globalData.footerText} />
       <GradientBackground
         variant="large"
