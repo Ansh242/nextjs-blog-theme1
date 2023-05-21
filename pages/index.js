@@ -67,3 +67,7 @@ export function getStaticProps() {
 
   return { props: { posts, globalData } };
 }
+<head>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6663862959656949"
+     crossorigin="anonymous"></script>
+<\head>
